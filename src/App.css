@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Links{
+  text-decoration: none;
+  display: inline-flex;
+  list-style-type: none;
+  font-size: 20px;
+  border-top:  2px solid rgb(61, 61, 41);
+  border-bottom: 2px solid rgb(61, 61, 41);
+  font-family: sans-serif;
+  margin-bottom: 20px;
+
+}
+
+a:link, a:visited {
+    
+    color:  #4d4d33;
+    padding: 14px 35px;
+    margin-right: 40px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+ a:active {
+    background-color: red;
+}
+
+.collections{
+  display: inline-flex;
+  margin-left: 20px;
+}
+.Item{
+  margin-left: 40px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 5px 3px 4px 4px; 
+  shadow: 3px 3px 3px 3px ;
+}
+
+.description{
+  background-color: rgb(51, 62, 51); 
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+.NewsDashboard{
+  width: 80%;  
+}
+
+.d{
+  border-top:  2px solid rgb(61, 61, 41);
+  border-bottom: 2px solid rgb(61, 61, 41);
+  padding: 20px;
+  margin:20px;
+  border-left:  2px solid rgb(61, 61, 41);
+  border-right: 2px solid rgb(61, 61, 41);
+
+}
+.d:active{
+  background-color: blue;
+}
+
+.d:visited{
+    background-color: blue; 
+}
