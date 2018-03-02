@@ -82,9 +82,10 @@ a:link, a:visited {
   border-bottom: 2px solid rgb(61, 61, 41);
   padding: 20px;
   margin:20px;
+  width: 50%;
   border-left:  2px solid rgb(61, 61, 41);
   border-right: 2px solid rgb(61, 61, 41);
-
+  display:  inline-block;
 }
 .d:active{
   background-color: blue;
